@@ -6,4 +6,4 @@ if (number1 * number2 %2 == 0) {
 
 }
 
-console.log(number1 * number2 + "  a szorzat");
+console.log(number1 * number2 + "  a szorzat"); //nmadijfbadsbfasdbfhasbfhasbhfbashfbashbfashi//
