@@ -6,6 +6,6 @@ if ( a==b ) {
 
 } else console.log ("teglalap");
 
-console.log(a * b);
+/*console.log(a * b);
 console.log(a );
-console.log(b);
+console.log(b); */
