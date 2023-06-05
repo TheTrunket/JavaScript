@@ -1,14 +1,24 @@
-var number = 300;
+var output = [];
+var count = 1;
 
-if (number%5 == 0 && number%3 == 0 ) {
-    console.log("FizzBuzz")   
-} 
+function fizzBuzz() {
 
-else if (number%5 == 0) {
-    console.log("Buzz")
+    while(count <= 100) {
 
-} else if (number%3 == 0 ) {
-    console.log("Fizz")
+    if (count%3 == 0 && count%5 == 00){
+        output.push("FizzBuzz");
+     
+    } else if (count%5 == 0){
+        output.push("Buzz");
+        
+} else if (count%3 == 0 ) {
+        output.push("Fizz");
+        
+} else output.push(count);
+
+count++;
+}
+    console.log(output);
 }
 
-
+fizzBuzz();
