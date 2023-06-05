@@ -6,5 +6,5 @@ if (num1 > num2 ) {
 
 } else console.log(num2);
 
-console.log(num1 + " elso random");
-console.log(num2 + " masodik random");
+/*console.log(num1 + " elso random");
+console.log(num2 + " masodik random"); */
